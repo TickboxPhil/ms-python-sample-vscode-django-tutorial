@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'PLACEHOLDER'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # When deploying to Azure App Service, add you <name>.azurewebsites.net 
 # domain to ALLOWED_HOSTS; you get an error message if you forget. When you add
